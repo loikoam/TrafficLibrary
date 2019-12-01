@@ -1,0 +1,1 @@
+D:\git\test\apiTest\testService\testService.Logic\obj\Debug\testService.Logic.csprojAssemblyReference.cache
