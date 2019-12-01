@@ -2,7 +2,7 @@
 
 namespace testService.Logic.Services
 {
-    interface IBookServices
+    public interface IBookService
     {
         Book GetById(string id);
     }

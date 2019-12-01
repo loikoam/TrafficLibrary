@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using testService.Logic.Services;
 
 namespace testService.Logic
 {
@@ -11,7 +12,7 @@ namespace testService.Logic
     {
         public override void Load()
         {
-            Bind<IBookServices>().To<BookServices>();
+            Bind<IBookService>().To<BookServices>();
         }
     }
 }

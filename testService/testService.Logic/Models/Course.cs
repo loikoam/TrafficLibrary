@@ -24,29 +24,17 @@ namespace testService.Models
     
     public static class Courseware
     {
-        private static List<Course> _course = new List<Course>()
-        {
-            //new Course()
-            //{
-            //    Title = "Course 1",
-            //    Price = 10.0
-            //},
-            //new Course()
-            //{
-            //    Title = "Course 2",
-            //    Price = 20.0
-            //}
-        };
+        private static List<Course> _course = new List<Course>();
 
         static Courseware()
         {
             var faker = new Faker<Course>();
             faker.RuleFor(_ => _.URL, f => f.Internet.Url());
-            faker.RuleFor(_ => _.Category, f => f.Name.FirstName());
-            faker.RuleFor(_ => _.Title, f => f.Lorem.Sentence(10));
-            faker.RuleFor(_ => _.Price, f => f.Random.Double());//f.Commerce.Price(0,10000,2));// .Double());
-            faker.RuleFor(_ => _.Discount, f => f.Random.Int());
-            faker.RuleFor(_ => _.Discription, f => f.Random.String());
+            faker.RuleFor(_ => _.Category, f => f.Company.CompanyName());
+            faker.RuleFor(_ => _.Title, f => f.Lorem.Sentence(10));// f => f.Lorem.Sentence(10));
+            faker.RuleFor(_ => _.Price, f => f.Random.Double(0, 100000));// f => f.Random.Double());//f.Commerce.Price(0,10000,2));// .Double());
+            faker.RuleFor(_ => _.Discount, f => f.Random.Int(1, 99));// f => f.Random.Int());
+            faker.RuleFor(_ => _.Discription, f => f.Lorem.Sentences(13));
             _course = faker.Generate(10);
         }
 

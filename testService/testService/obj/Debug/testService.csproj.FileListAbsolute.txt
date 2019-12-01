@@ -206,3 +206,13 @@ D:\git\test\apiTest\testService\testService\obj\Debug\testService.csprojAssembly
 D:\git\test\apiTest\testService\testService\obj\Debug\testService.csproj.CopyComplete
 D:\git\test\apiTest\testService\testService\obj\Debug\testService.dll
 D:\git\test\apiTest\testService\testService\obj\Debug\testService.pdb
+D:\git\test\apiTest\testService\testService\bin\Ninject.dll
+D:\git\test\apiTest\testService\testService\bin\Ninject.Web.Common.dll
+D:\git\test\apiTest\testService\testService\bin\Ninject.Web.Common.WebHost.dll
+D:\git\test\apiTest\testService\testService\bin\Ninject.Web.WebApi.dll
+D:\git\test\apiTest\testService\testService\bin\testService.Logic.dll
+D:\git\test\apiTest\testService\testService\bin\testService.Logic.pdb
+D:\git\test\apiTest\testService\testService\bin\Ninject.xml
+D:\git\test\apiTest\testService\testService\bin\Ninject.Web.Common.xml
+D:\git\test\apiTest\testService\testService\bin\Ninject.Web.Common.WebHost.xml
+D:\git\test\apiTest\testService\testService\bin\Ninject.Web.WebApi.xml
