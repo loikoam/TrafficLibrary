@@ -1,8 +1,9 @@
-﻿using testService.Models;
+﻿using System;
+using testService.Models;
 
 namespace testService.Logic.Services
 {
-    public interface IBookService
+    public interface IBookService : IDisposable
     {
         Book GetById(string id);
     }
